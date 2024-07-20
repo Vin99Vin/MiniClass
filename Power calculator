@@ -1,0 +1,9 @@
+print("The KW Power Calculator")
+
+voltage = float(input("Enter Voltage "))
+
+current = float(input("Enter the current in amperes (A):"))
+power_watts = voltage * current
+power_kw = power_watts / 1000
+
+print(f"The power is {power_kw} kilowatts (kw).")
